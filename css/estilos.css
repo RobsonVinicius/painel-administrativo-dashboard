@@ -8,6 +8,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* --- Barra Lateral --- */
 .barra-lateral {
   background: #262a34;
   color: #fff;
@@ -67,8 +68,13 @@ body {
 .main .titulo {
   color: #262a34;
   font-size: 25px;
+  font-weight: 500;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 20px;
+}
+
+.main .widget {
+  margin-bottom: 40px;
 }
 
 /* --- Widget Nova Entrada --- */
@@ -144,3 +150,79 @@ body {
   border-right: none;
 }
   
+
+/* --- Widget Comentários --- */
+.main .comentarios .conteudo {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.main .comentarios .comentario {
+  background: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.main .comentarios .comentario .foto {
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  margin-right: 20px;
+  border-radius: 100px;
+}
+
+.main .comentarios .comentario .foto a {
+  display: inline-block;
+}
+
+.main .comentarios .comentario .foto img {
+  width: 100%
+}
+
+.main .comentarios .comentario .texto {
+  flex: 1; 
+}
+
+.main .comentarios .comentario .texto .texto-comentario {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main .comentarios .comentario .botoes button {
+  background: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: all .3s ease;
+  margin-right: 10px; 
+  margin-bottom: 10px;
+}
+
+.main .comentarios .comentario .botoes .aprovar {
+  background: #35ae6b;
+}
+
+.main .comentarios .comentario .botoes .eliminar {
+  background: #b74848;
+}
+
+.main .comentarios .comentario .botoes .bloquear {
+  color: #acacac;
+}
+
+.main .comentarios .comentario .botoes .aprovar:hover {
+  background: #448d44;
+}
+
+.main .comentarios .comentario .botoes .eliminar:hover {
+  background: #c9302c;
+}
+
+.main .comentarios .comentario .botoes .bloquear:hover {
+  background: #acacac;
+  color: #fff;
+}
