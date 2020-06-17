@@ -53,3 +53,94 @@ body {
   margin-right: 10px;
   font-weight: normal;
 }
+
+/* --- MAIN --- */
+.main {
+  padding-top: 40px;  
+}
+
+.main .coluna {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.main .titulo {
+  color: #262a34;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* --- Widget Nova Entrada --- */
+.main .widget form input[type="text"],
+.main .widget form textarea {
+  width: 100%;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2)
+}
+
+.main .widget form input[type="text"] {
+  font-weight: 400;
+}
+
+.main .widget form textarea {
+  height: 400px;
+  min-height: 200px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.main .widget form button {
+  background: #0275d8;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  width: 200px;
+  border-radius: 3px;
+  transition: all .3s ease;
+  margin-top: 20px
+}
+
+.main .widget form button:hover{
+  background: #025aa5;
+}
+
+/* --- Widget Estatísticas --- */
+.main .estatisticas .conteudo {
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, .2)
+}
+
+.main .estatisticas .caixa {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  padding: 40px 20px;
+  flex: 1;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main .estatisticas .caixa h3 {
+  margin-bottom: 10px;
+  color: #35ae6b;  
+}
+
+.main .estatisticas .caixa p {
+  color: #a8a8a8;
+  margin-bottom: 0;
+}
+
+.main .estatisticas .caixa:first-child {
+  border-right: none;
+}
+
+.main .estatisticas .caixa:last-child {
+  border-right: none;
+}
+  
