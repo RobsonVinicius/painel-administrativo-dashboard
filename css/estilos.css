@@ -190,6 +190,7 @@ body {
 .main .comentarios .comentario .botoes button {
   background: none;
   cursor: pointer;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -225,4 +226,49 @@ body {
 .main .comentarios .comentario .botoes .bloquear:hover {
   background: #acacac;
   color: #fff;
+}
+
+
+/* --- Mediaqueries --- */
+@media screen and (max-width: 1300px) {
+  .barra-lateral {
+    min-width: auto;
+  }
+
+  .barra-lateral .logo {
+    display: none;
+  }
+
+  .barra-lateral .menu a span {
+    display: none;
+  }
+
+  .barra-lateral .menu a i {
+    margin: 0;   
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .barra-lateral {
+    min-height: auto;
+  }
+  .barra-lateral {
+    display: inline-block;
+    border-bottom: none;
+  }
+  .main .widget form button {
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 575px) {
+  .main .comentarios .comentario .foto {
+    width: 30px;
+    height: 30px
+  }
+  .main .comentarios .comentario .botoes button {
+    width: 100%;
+  }
 }
